@@ -1,1 +1,64 @@
 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>KAMPALA FRESH PRODUCE DIRECT</title>
+    </head>
+    <body>
+        <header>
+            <h1>Kampala Fresh Produce Direct</h1>
+            <p>Connecting peri-urban farmers in Kasangati, Gayaza, and Mukono with buyers in Kampala.</p>
+        </header>
+        <nav>
+            <a href="index.html"> Home </a>
+            <a href="products.html"> Products </a>
+            <a href="orders.html"> Orders </a>
+            <a href="contacts.html"> Contacts </a>
+
+        </nav>
+        <main>
+            <section>
+                <h2>Available Produce</h2>
+                <ul>
+                    <li>Tomatoes - UGX 5000 per kg</li>
+                    <li>Cabbages - UGX 3000 per kg</li>
+                    <li>Onions   -UGX 4000 per kg</li>
+                    <li>Carrots - UGX 6000 per kg</li>
+                    <li>Green peppers - UGX 2000 per kg</li>
+
+                </ul>
+            </section>
+            <section>
+                <h2>Create Your Produce Basket</h2>
+                <form>
+                    <label for="name">Customer Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                    <label for="produce"> Select Produce:</label><br>
+                    <select id="produce"name="produce">
+                        <option>Tomatoes</option>
+                        <option>Cabbages</option>
+                        <option>Onions</option>
+                        <option>Carrots</option>
+                        <option>Green peppers</option>
+                    </select><br><br>
+                    <label for="Quantity">Quantity:</label>
+                    <input type="number" id="Quantity"name="Quantity" min="2" required><br>
+                    <p> Buyer Type:</p>
+
+                    <input type="radio" id="Household" name="buyer type" value="Household">
+                    <label for="Household">Household</label><br>
+
+                    <input type="radio" id="Restaurant" name="buyer type" value="Restaurant">
+                    <label for="Restaurant">Restaurant</label><br><br>
+
+                    <input type="submit" value="Place Order">
+
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 KAMPALA FRESH PRODUCE DIRECT COOPERATIVE.</p>
+        </footer>
+    </body>
+</html>
